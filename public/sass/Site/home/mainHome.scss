@@ -1,0 +1,40 @@
+@use 'galleryTop/gTop';
+@use 'galleryNoiBat/gNoiBat';
+@use 'keyword';
+@use 'goiy';
+
+.home {
+    width: 100%;
+    padding-bottom: 16px;
+
+    .homeFrame {
+        width: 100%;
+    
+        .galleryTopFrame {
+            width: 100%;
+            height: 500px;
+        }
+        
+        .galleryNoiBatFrame {
+            width: 1240px;
+            margin: 0 auto;
+            height: 38em;
+            background-color: #E7E9EB;
+            border-radius: 4px;
+            margin-top: 16px;
+        }
+        
+        .keywordFrame {
+            width: 1240px;
+            margin: 0 auto;
+            height: 8.45em;
+            background-color: #E7E9EB;
+            border-radius: 4px;
+        }
+        
+        .spGoiYFrame {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

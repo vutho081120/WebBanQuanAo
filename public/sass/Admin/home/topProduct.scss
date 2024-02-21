@@ -1,0 +1,13 @@
+.topProduct {
+    .card {
+        .card-header {
+            display: flex;
+            align-items: center;
+
+            select {
+                margin-left: 1rem;
+                padding: 3px;
+            }
+        }
+    }
+}

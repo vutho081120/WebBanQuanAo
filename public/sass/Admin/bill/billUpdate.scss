@@ -1,0 +1,21 @@
+.billUpdate {
+    width: 100%;
+    height: 100%;
+    
+    .billUpdateFrame {
+        width: 1240px;
+        height: auto;
+        margin: 0 auto;
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0 6px 0;
+            align-items: center;
+           
+            a {
+                height: 30px;
+            }
+        }
+    }
+}

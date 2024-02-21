@@ -1,0 +1,128 @@
+.container {
+    max-width: 1240px;
+    background-color: #E7E9EB;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    a {
+        text-decoration: none;
+    }
+
+    .row {
+        .col-sm-9 {
+            .container {
+                .property-content-body {
+                    .listItem {
+                        width: 100%;
+                        height: auto;
+                        padding-top: 16px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-self: stretch;
+                
+                        a {
+                            width: calc(100% / 3);
+                            height: 32.5em;
+                            padding: 16px;
+                            text-decoration: none;
+                
+                            .item {
+                                width: 100%;
+                                height: 100%;
+                                
+                
+                                .productImg{
+                                    img {
+                                        width: 100%;
+                                        height: 24em;
+                                        object-fit: cover;
+                                    }
+                                }
+                    
+                                .productContent {
+                                    padding: 10px 5px 0px;
+                
+                                    .itemTop {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        height: 25px;
+                
+                                        .price {
+                                            text-decoration: line-through;
+                                        }
+                                    }
+                
+                                    .sale {
+                                        text-align: right;
+                                    }
+                
+                                    .content {
+                                        width: 100%;
+                                        height: 46px;
+                                        font-size: 14px;
+                                        overflow: hidden;
+                
+                                        span {
+                                            width: 100%;
+                                            height: 100%;
+                                        }
+                                    }
+                                }
+                            }
+                
+                            &:hover {
+                                background-color: #c4c4c4;
+                            }
+                        }
+                    }
+                }
+
+
+                .title {
+                    width: 100%;
+                    margin-left: 0px;
+        
+                    span {
+                        width: 100%;
+                        padding: 10px 16px;
+                        background-color: white;
+                        font-size: 20px;
+                        line-height: 28px;
+                        text-transform: capitalize;
+                        margin-bottom: 4px;
+                        border-radius: 4px;
+                    }
+                }
+
+                img {
+                    height: 350px;
+                    object-fit: cover;
+                }
+
+                .card-body {
+                    padding: 0.7rem;
+
+                    .card-text {
+                        height: 47px;
+                        overflow: hidden;
+                    }
+
+                    .price {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .col-sm-3 {
+            .event {
+                margin: 16px 10px 10px 10px;
+    
+                .card-body {
+                    padding: 0.85rem;
+                }
+            }
+        }
+    }
+}

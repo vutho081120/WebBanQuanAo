@@ -1,0 +1,9 @@
+.dashboardBox {
+    margin-top: 1.5rem;
+
+    .card-body {
+        .row {
+            --bs-gutter-x: 0.5rem;
+        }
+    }
+}

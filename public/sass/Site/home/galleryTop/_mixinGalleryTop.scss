@@ -1,0 +1,20 @@
+@mixin btn ($bgColorN) {
+    position: absolute;
+    top: 8%;
+    padding: 0px;
+    border: none;
+    opacity: 0.8;
+    background-color: $bgColorN;
+
+    div {
+        width: 3em;
+        height: 7.5em;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 3em;
+            height: 5em;
+        }
+    }
+}

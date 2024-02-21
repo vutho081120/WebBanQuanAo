@@ -1,0 +1,91 @@
+.checkout {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 16px;
+
+    .checkoutLeftFrame {
+        width: 777px;
+        border-radius: 4px;
+    }
+
+    .checkoutRightFrame {
+        width: 362px;
+        border: 1px solid;
+        border-radius: 4px;
+        background-color: #E7E9EB;
+        
+        .title {
+            padding: 16px;
+
+            h2 {
+                font-size: 20px;
+                padding: 6px;
+                text-align: center;
+            }
+        }
+
+        form {
+            width: 100%;
+
+            .hinhthuc {
+                padding: 16px;
+            }
+
+            .button {
+                width: 100%;
+                height: 10em;
+                background-color: #E7E9EB;
+                padding: 16px;
+
+                
+                    .btnDatHang {
+                        width: 100%;
+                        text-align: center;
+        
+                        button {
+                            display: inline-block;
+                            padding: 16px;
+                            width: 100%;
+                            height: 100%;
+                            text-decoration: none;
+                            background-color: #fff;
+                            border-radius: 4px;
+                            border: none;
+                            color: #000;
+                            cursor: pointer;
+        
+                            &:hover {
+                                background-color: #ee4d2d;
+                            }
+                        }
+                    }
+
+                .back {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 32px;
+
+                    .btnBack {
+        
+                        a {
+                            padding: 6px;
+                            text-decoration: none;
+                            color: #000;
+                            background-color: #fff;
+                            border-radius: 4px;
+        
+                            &:hover {
+                                background-color: #ee4d2d;
+                            }
+                        }
+                    }
+        
+                    .btnGioHang {
+                        @extend .btnBack;
+                    }
+                }
+            }
+        }
+    }
+}

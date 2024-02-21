@@ -1,0 +1,28 @@
+.userUpdate {
+    width: 100%;
+    height: 100%;
+    
+    .userUpdateFrame {
+        width: 1240px;
+        height: auto;
+        margin: 0 auto;
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0 6px 0;
+            align-items: center;
+           
+            a {
+                height: 30px;
+            }
+        }
+
+        .page {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 16px;
+        }
+    }
+}

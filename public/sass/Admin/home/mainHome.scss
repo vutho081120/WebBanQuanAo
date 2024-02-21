@@ -1,0 +1,23 @@
+@use 'dashboard';
+@use 'topProduct';
+
+.home {
+    width: 100%;
+    padding-bottom: 16px;
+
+    .homeFrame {
+        width: 100%;
+
+        .dashboardBoxFrame {
+            width: 1240px;
+            height: auto;
+            margin: 0 auto;
+        }
+
+        .topProductFrame {
+            width: 1240px;
+            height: auto;
+            margin: 0 auto;
+        }
+    }
+}

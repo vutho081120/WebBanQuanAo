@@ -1,0 +1,39 @@
+@use 'categoryCreate';
+@use 'categoryUpdate';
+
+.category {
+    width: 100%;
+    height: 100%;
+    
+    .categoryFrame {
+        width: 1240px;
+        height: auto;
+        margin: 0 auto;
+
+        .head {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0 6px 0;
+            align-items: center;
+           
+            a {
+                height: 30px;
+            }
+        }
+
+        .body {
+            a {
+                text-decoration: none;
+                color: #000;
+                display: block;
+            }
+        }
+
+        .page {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            padding-top: 16px;
+        }
+    }
+}

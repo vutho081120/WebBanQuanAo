@@ -1,0 +1,116 @@
+@use 'configGalleryNoiBat' as c;
+@use 'mixinGalleryNoiBat' as m;
+
+.titleNoiBat {
+    width: 100%;
+    height: 68px;
+    text-align: center;
+
+    p {
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 68px;
+    }
+}
+
+#galleryNoiBat {
+    width: 100%;
+    height: 88%;
+    position: relative;
+    overflow: hidden;
+
+    &>ul {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        width: 10000px;
+        height: 100%;
+        transition: transform  0.6s ease-in-out;
+        transform: translateX(0px);
+
+        li {
+            width: 15.5em;
+            height: 93%;
+            margin-left: 3.2em;
+            background-color: c.$liColor;
+            float: left;
+
+            a {
+                text-decoration: none;
+
+                .productImg{
+                    img {
+                        width: 100%;
+                        height: 24em;
+                        object-fit: cover;
+                    }
+                }
+    
+                .productContent {
+                    padding: 10px 5px 0px;
+
+                    .itemTop {
+                        display: flex;
+                        justify-content: space-between;
+                        height: 25px;
+
+                        .price {
+                            text-decoration: line-through;
+                        }
+                    }
+
+                    .sale {
+                        text-align: right;
+                    }
+
+                    .content {
+                        width: 100%;
+                        height: 46px;
+                        font-size: 14px;
+                        overflow: hidden;
+
+                        span {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }   
+        }
+    }
+
+    .button {
+    
+        #nextNB {
+            position: absolute;
+            right: 8px;
+            bottom: 62%;
+        }
+
+        #backNB {
+            position: absolute;
+            left: 8px;
+            bottom: 62%;
+        }
+    
+        .dots {
+            position: absolute;
+            left: 46%;
+            top: 96%;
+            width: auto;
+            display: flex;
+            justify-content: space-between;
+
+            .dot {
+                width: 10px;
+                height: 10px;
+                margin-right: 10px;
+                background: c.$dotColor;
+                list-style: none;
+                border-radius: 50%;
+                cursor: pointer;
+                transition: background-color  0.6s ease-in-out;
+            }  
+        }
+    }
+}
